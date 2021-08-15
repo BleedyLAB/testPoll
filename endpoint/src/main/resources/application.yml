@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost/test7
+    username: Bleedy
+    password: grenger12
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    generate-ddl: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+springdoc:
+  swagger-ui:
+    disable-swagger-default-url: true
